@@ -1,0 +1,17 @@
+{
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "skripsi",
+      "database": "m_bantuan_2020",
+      "username": "root",
+      "password": "sayangmamah"
+    }
+  ]
+}
