@@ -54,7 +54,7 @@
 								</div>
 							<?php } ?>
 						</div>
-						<h4 class="mb-3 f-w-400">Login into your account</h4>
+						<h4 class="mb-3 f-w-400">Silahkan Login </h4>
 						<br>
 						<form id="sign_in" method="POST" action="<?php echo base_url(); ?>clogin/auth">
 							<!-- <div class="input-group mb-2">

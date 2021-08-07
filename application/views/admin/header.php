@@ -49,7 +49,7 @@
         <div class="navbar-wrapper ">
             <div class="navbar-brand header-logo">
                 <a href="" class="b-brand">
-                    <font color="#ffffff">SPK WASPAS</font>
+                    <font color="#ffffff">WASPAS AIR MINERAL</font>
                     <!-- <img src="<?php echo base_url(); ?>public/assets/images/logo.svg" alt="" class="logo images">
                     <img src="<?php echo base_url(); ?>public/assets/images/logo-icon.svg" alt="" class="logo-thumb images"> -->
                 </a>
