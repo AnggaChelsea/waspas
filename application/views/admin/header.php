@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Waspas</title>
+    <title>Waspas Air Mineral</title>
     <!-- HTML5 Shim and Respond.js IE11 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 11]>
@@ -70,7 +70,7 @@
                             <a href="<?php echo base_url(); ?>data-kriteria" class="nav-link"><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Data Kriteria</span></a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?php echo base_url(); ?>data-penduduk" class="nav-link"><span class="pcoded-micon"><i class="feather icon-layout"></i></span><span class="pcoded-mtext">Data Penduduk Dan Penilaian</span></a>
+                            <a href="<?php echo base_url(); ?>data-penduduk" class="nav-link"><span class="pcoded-micon"><i class="feather icon-layout"></i></span><span class="pcoded-mtext">Data Air Minrela Dan Penilaian</span></a>
                         </li>
                         <li class="nav-item">
                             <a href="<?php echo base_url(); ?>proses-spk" class="nav-link"><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Proses SPK</span></a>

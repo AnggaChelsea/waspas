@@ -10,11 +10,11 @@
                                 <div class="row align-items-center">
                                     <div class="col-md-12">
                                         <div class="page-header-title">
-                                            <h5 class="m-b-10">Data Penduduk</h5>
+                                            <h5 class="m-b-10">Data Air Mineral</h5>
                                         </div>
                                         <ul class="breadcrumb">
                                             <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
-                                            <li class="breadcrumb-item"><a href="#!">Data Penduduk</a></li>
+                                            <li class="breadcrumb-item"><a href="#!">Data Air Mineral</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -28,7 +28,7 @@
                             <div class="col-md-12">
                                 <div class="card">
                                     <div class="card-header">
-                                        <h5>Daftar Penduduk</h5>
+                                        <h5>Daftar Air Mineral</h5>
                                         <div class="card-header-right">
                                             <div class="btn-group card-option">
                                                 <button type="button" class="btn-primary btn-sm" data-toggle="modal" data-target="#defaultModal" id="click">Tambah Penduduk</button>
@@ -42,9 +42,6 @@
                                                     <tr>
                                                         <th style="width: 5%;">#</th>
                                                         <th>Nama</th>
-                                                        <th>Jenis Kelamin</th>
-                                                        <th>No Telp</th>
-                                                        <th>Alamat</th>
                                                         <?php if ($_SESSION['level'] == 1) { ?>
                                                             <th>Aksi</th>
                                                         <?php } ?>
@@ -59,9 +56,7 @@
                                                                 <?php echo $key['nama'] ?><br>
                                                                 <span class="badge badge-info"><?php echo $key['nik'] ?></span>
                                                             </td>
-                                                            <td><?php echo ($key['jk'] == '1') ? 'Laki - Laki' : 'Perempuan'; ?></td>
-                                                            <td><?php echo $key['notelp'] ?></td>
-                                                            <td><?php echo $key['alamat'] ?></td>
+                                                            
                                                             <?php if ($_SESSION['level'] == 1) { ?>
                                                                 <td>
                                                                     <a href="<?php echo base_url(); ?>data-penduduk/edit/<?= $key['id_penduduk'] ?>" class="btn btn-warning btn-sm">Ubah</a>
@@ -102,11 +97,6 @@
                                                         <th style="background-color: #2ed88a; color:#ffffff;">C2</th>
                                                         <th style="background-color: #2ed88a; color:#ffffff;">C3</th>
                                                         <th style="background-color: #2ed88a; color:#ffffff;">C4</th>
-                                                        <th style="background-color: #2ed88a; color:#ffffff;">C5</th>
-                                                        <th style="background-color: #2ed88a; color:#ffffff;">C6</th>
-                                                        <th style="background-color: #2ed88a; color:#ffffff;">C7</th>
-                                                        <th style="background-color: #2ed88a; color:#ffffff;">C8</th>
-                                                        <th style="background-color: #2ed88a; color:#ffffff;">C9</th>
                                                         <?php if ($_SESSION['level'] == 1) { ?>
                                                             <th style="background-color: #2ed88a; color:#ffffff;">Aksi</th>
                                                         <?php } ?>
@@ -122,11 +112,6 @@
                                                             <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C2'])['pilihan'] ?></td>
                                                             <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C3'])['pilihan'] ?></td>
                                                             <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C4'])['pilihan'] ?></td>
-                                                            <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C5'])['pilihan'] ?></td>
-                                                            <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C6'])['pilihan'] ?></td>
-                                                            <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C7'])['pilihan'] ?></td>
-                                                            <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C8'])['pilihan'] ?></td>
-                                                            <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C9'])['pilihan'] ?></td>
                                                             <?php if ($_SESSION['level'] == 1) { ?>
                                                                 <td>
                                                                     <a href="<?php echo base_url(); ?>data-penduduk/editnilai/<?= $nilai['id_penduduk_nilai'] ?>" class="btn btn-warning btn-sm">Ubah</a>

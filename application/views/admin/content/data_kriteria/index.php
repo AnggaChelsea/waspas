@@ -4,7 +4,7 @@
             <div class="pcoded-inner-content">
                 <div class="main-body">
                     <div class="page-wrapper">
-                        <!-- [ breadcrumb ] start -->
+                       
                         <div class="page-header">
                             <div class="page-block">
                                 <div class="row align-items-center">
@@ -20,9 +20,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- [ breadcrumb ] end -->
-                        <!-- [ Main Content ] start -->
-                        <!-- [ button ] start -->
+                      
                         <div class="row">
                             <?php foreach ($data as $key) { ?>
                                 <!-- [ size-small-button ] start -->
@@ -59,7 +57,6 @@
                                     </div>
                                 </div>
                             <?php } ?>
-                            <!-- [ size-small-button ] end -->
                         </div>
                     </div>
                 </div>
