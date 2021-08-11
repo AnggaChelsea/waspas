@@ -35,7 +35,7 @@
                             }
                             ?>
                         </h4>
-                        <!-- <div class="row">
+                        <div class="row">
 
                                 <div class="col-md-12 col-xl-4">
                                     <div class="card card-social">
@@ -49,7 +49,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-xl-4">
+                                <!-- <div class="col-md-6 col-xl-4">
                                     <div class="card card-social">
                                         <div class="card-block border-bottom">
                                             <div class="row align-items-center justify-content-center">
@@ -60,8 +60,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-md-6 col-xl-4">
+                                </div> -->
+                                <!-- <div class="col-md-6 col-xl-4">
                                     <div class="card card-social">
                                         <div class="card-block border-bottom">
                                             <div class="row align-items-center justify-content-center">
@@ -72,9 +72,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
 
-                    </div> -->
+                    </div>
 
                         <!-- [ Main Content ] end -->
                     </div>

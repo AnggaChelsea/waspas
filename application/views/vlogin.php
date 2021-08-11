@@ -34,7 +34,7 @@
 </head>
 
 <!-- [ auth-signin ] start -->
-<div id="admin">
+<div id="admin" style="background-image:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fbahassemua.com%2Fwp-content%2Fuploads%2F2018%2F10%2FGambar-Air-Mineral.jpg%3Fresize%3D750%252C499%26ssl%3D1&f=1&nofb=1)">
 
 	<div class="auth-wrapper">
 		<div class="auth-content container">

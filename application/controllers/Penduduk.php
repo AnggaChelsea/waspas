@@ -37,10 +37,6 @@ class Penduduk extends CI_Controller
                 }
                 $params = array(
                     'nama' => $this->input->post('nama'),
-                    'nik' => $this->input->post('nik'),
-                    'jk' => $this->input->post('jk'),
-                    'alamat' => $this->input->post('alamat'),
-                    'notelp' => $this->input->post('notelp')
                 );
 
                 $params2 = array(

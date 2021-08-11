@@ -38,11 +38,7 @@
                                                         <th style="background-color: #e52d27; color:#ffffff;">C2</th>
                                                         <th style="background-color: #e52d27; color:#ffffff;">C3</th>
                                                         <th style="background-color: #e52d27; color:#ffffff;">C4</th>
-                                                        <th style="background-color: #e52d27; color:#ffffff;">C5</th>
-                                                        <th style="background-color: #e52d27; color:#ffffff;">C6</th>
-                                                        <th style="background-color: #e52d27; color:#ffffff;">C7</th>
-                                                        <th style="background-color: #e52d27; color:#ffffff;">C8</th>
-                                                        <th style="background-color: #e52d27; color:#ffffff;">C9</th>
+                                                    
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -55,11 +51,7 @@
                                                             <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C2'])['pilihan'] ?></td>
                                                             <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C3'])['pilihan'] ?></td>
                                                             <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C4'])['pilihan'] ?></td>
-                                                            <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C5'])['pilihan'] ?></td>
-                                                            <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C6'])['pilihan'] ?></td>
-                                                            <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C7'])['pilihan'] ?></td>
-                                                            <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C8'])['pilihan'] ?></td>
-                                                            <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C9'])['pilihan'] ?></td>
+                                                          
                                                         </tr>
                                                     <?php } ?>
                                                 </tbody>
@@ -86,11 +78,7 @@
                                                         <th style="background-color: #f57c00; color:#ffffff;">C2</th>
                                                         <th style="background-color: #f57c00; color:#ffffff;">C3</th>
                                                         <th style="background-color: #f57c00; color:#ffffff;">C4</th>
-                                                        <th style="background-color: #f57c00; color:#ffffff;">C5</th>
-                                                        <th style="background-color: #f57c00; color:#ffffff;">C6</th>
-                                                        <th style="background-color: #f57c00; color:#ffffff;">C7</th>
-                                                        <th style="background-color: #f57c00; color:#ffffff;">C8</th>
-                                                        <th style="background-color: #f57c00; color:#ffffff;">C9</th>
+                                                      
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -103,11 +91,7 @@
                                                             <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C2'])['nilai'] ?></td>
                                                             <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C3'])['nilai'] ?></td>
                                                             <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C4'])['nilai'] ?></td>
-                                                            <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C5'])['nilai'] ?></td>
-                                                            <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C6'])['nilai'] ?></td>
-                                                            <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C7'])['nilai'] ?></td>
-                                                            <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C8'])['nilai'] ?></td>
-                                                            <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C9'])['nilai'] ?></td>
+                                                           
                                                         </tr>
                                                     <?php } ?>
                                                 </tbody>
@@ -134,11 +118,7 @@
                                                         <th style="background-color: #2962FF; color:#ffffff;">C2</th>
                                                         <th style="background-color: #2962FF; color:#ffffff;">C3</th>
                                                         <th style="background-color: #2962FF; color:#ffffff;">C4</th>
-                                                        <th style="background-color: #2962FF; color:#ffffff;">C5</th>
-                                                        <th style="background-color: #2962FF; color:#ffffff;">C6</th>
-                                                        <th style="background-color: #2962FF; color:#ffffff;">C7</th>
-                                                        <th style="background-color: #2962FF; color:#ffffff;">C8</th>
-                                                        <th style="background-color: #2962FF; color:#ffffff;">C9</th>
+                                                       
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -151,11 +131,7 @@
                                                             <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C2'])['nilai'] / 4 ?></td>
                                                             <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C3'])['nilai'] / 4 ?></td>
                                                             <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C4'])['nilai'] / 4 ?></td>
-                                                            <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C5'])['nilai'] / 4 ?></td>
-                                                            <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C6'])['nilai'] / 4 ?></td>
-                                                            <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C7'])['nilai'] / 4 ?></td>
-                                                            <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C8'])['nilai'] / 4 ?></td>
-                                                            <td><?php echo $this->Mdatakriteria->get_data_nilai_kriteria_id($nilai['C9'])['nilai'] / 4 ?></td>
+                                                        
                                                         </tr>
                                                     <?php } ?>
                                                 </tbody>
