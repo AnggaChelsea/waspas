@@ -25,8 +25,8 @@ class Penduduk extends CI_Controller
     function add()
     {
         if (isset($_POST) && count($_POST) > 0) {
-            if ($this->check_nik($this->input->post('nik'))) {
-                $this->session->set_flashdata('username', 'Username sudah digunakan');
+            if ($this->check_nik($this->input->post('nama'))) {
+                $this->session->set_flashdata('nama', 'nama sudah ada');
                 redirect('data-penduduk');
                 die();
             } else {
@@ -40,8 +40,6 @@ class Penduduk extends CI_Controller
                 );
 
                 $params2 = array(
-                    'username' => $this->input->post('nik'),
-                    'password' => $this->input->post('nik'),
                     'nama' => $this->input->post('nama'),
                     'status' => 1,
                     'level' => 3
@@ -86,9 +84,6 @@ class Penduduk extends CI_Controller
         if (isset($_POST) && count($_POST) > 0) {
             $params = array(
                 'nama' => $this->input->post('nama'),
-                'jk' => $this->input->post('jk'),
-                'alamat' => $this->input->post('alamat'),
-                'notelp' => $this->input->post('notelp')
             );
             $this->db->where('id_penduduk', $id);
             $this->db->update('tb_penduduk', $params);
@@ -126,7 +121,7 @@ class Penduduk extends CI_Controller
     {
         $pdk = $this->Mpenduduk->get_data_penduduk_id($id);
         $this->Mpenduduk->delete_penduduk($id);
-        $this->Mpenduduk->delete_penduduk_login($pdk['nik']);
+        $this->Mpenduduk->delete_penduduk_login($pdk['nama']);
         $this->Mpenduduk->delete_penduduk_nilai2($id);
         echo "<script>history.go(-1)</script>";
     }
@@ -146,7 +141,7 @@ class Penduduk extends CI_Controller
 
     function check_nik($nik)
     {
-        $this->db->where('nik', $nik);
+        $this->db->where('nama', $nik);
         $query = $this->db->get('tb_penduduk');
         if ($query->num_rows() > 0) {
             return true;
@@ -154,4 +149,5 @@ class Penduduk extends CI_Controller
             return false;
         }
     }
+
 }

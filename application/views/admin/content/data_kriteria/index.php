@@ -36,7 +36,6 @@
                             <tr>
                               <th>#</th>
                               <th>Kriteria Bobot</th>
-                              <th>Presntase</th>
                               <th>Aksi</th>
                             </tr>
                           </thead>
@@ -45,8 +44,7 @@
                             foreach ($this->Mdatakriteria->get_data_nilai_kriteria($key['id_kriteria']) as $nilai) { ?>
                               <tr>
                                 <td><?php echo $num++;  ?></td>
-                                <td><?php echo $nilai['pilihan'] ?></td>
-                                <td><?php echo $nilai['nilai'] ?>%</td>
+                                <td><?php echo $nilai['nilai'] ?></td>
                                 <td> <a href="<?php echo base_url(); ?>data-kriteria/edit/<?= $nilai['id_nilai_kriteria'] ?>" class="btn btn-warning btn-sm">Ubah</a></td>
                               </tr>
                             <?php } ?>

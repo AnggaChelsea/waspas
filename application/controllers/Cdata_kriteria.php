@@ -30,7 +30,7 @@ class cdata_kriteria extends CI_Controller
   {
     if (isset($_POST) && count($_POST) > 0) {
       $params = array(
-        'pilihan' => $this->input->post('pilihan'),
+        // 'pilihan' => $this->input->post('pilihan'),
         'nilai' => $this->input->post('nilai')
       );
       $this->db->where('id_nilai_kriteria', $id);
