@@ -51,6 +51,7 @@ class Penduduk extends CI_Controller
                 redirect('data-penduduk');
             }
         }
+
     }
 
     function add_nilai()
@@ -58,6 +59,7 @@ class Penduduk extends CI_Controller
         if (isset($_POST) && count($_POST) > 0) {
             $num = 1;
             $data['id_penduduk'] = $this->input->post('id_penduduk');
+            // $this->db->insert_id();
             foreach ($_POST["kriteria"] as $email) {
                 $data['C' . '' . $num++] = $email;
             }
@@ -95,6 +97,7 @@ class Penduduk extends CI_Controller
         }
     }
 
+    
     function edit_penduduk_nilai($id)
     {
         if (isset($_POST) && count($_POST) > 0) {
@@ -148,6 +151,11 @@ class Penduduk extends CI_Controller
         } else {
             return false;
         }
+    }
+    public function detailproduct($id) {
+        $description = $this->Mpenduduk->detailproduct($id);
+        $data['description'] = $description;
+        $this->load->view('admin/content/penduduk/detail',$data); 
     }
 
 }

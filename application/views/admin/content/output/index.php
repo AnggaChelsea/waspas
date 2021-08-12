@@ -73,6 +73,7 @@
                             <th style="background-color: #2ed88a; color:#ffffff;">Peringkat</th>
                             <th style="background-color: #2ed88a; color:#ffffff;">Nama</th>
                             <th style="background-color: #2ed88a; color:#ffffff;">Nilai</th>
+                            <th style="background-color: #2ed88a; color:#ffffff;">View</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -82,6 +83,7 @@
                               <td><?php echo $numm++; ?></td>
                               <td><?php echo $this->Mpenduduk->get_data_penduduk_id($hasil['id_penduduk'])['nama'] ?></td>
                               <td><?php echo $hasil['nilai'] ?></td>
+                              <td><?php echo anchor('Penduduk/detailproduct/'.$hasil['id_penduduk'], '<button href="" class="btn btn-success">Decription</button>') ?></td>
                             </tr>
                           <?php } ?>
                         </tbody>

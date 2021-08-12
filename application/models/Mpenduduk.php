@@ -119,4 +119,8 @@ class mpenduduk extends CI_Model
         $this->db->insert('tb_user', $params);
         return $this->db->insert_id();
     }
+    function detailproduct($id = null){
+        $query = $this->db->get_where('tb_penduduk', array('id_penduduk' => $id))->row();
+        return $query;
+    }
 }

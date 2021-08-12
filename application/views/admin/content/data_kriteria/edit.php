@@ -34,10 +34,7 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <?php echo form_open('data-kriteria/edit/' . $datanilai['id_nilai_kriteria']); ?>
-                                                <div class="form-group">
-                                                    <label for="exampleInputEmail1">Pilihan Kriteria</label>
-                                                    <input type="text" value="<?php echo $datanilai['pilihan'] ?>" name="pilihan" class="form-control" required>
-                                                </div>
+                                                    
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Pilihan Kriteria</label>
                                                     <input type="number" value="<?php echo $datanilai['nilai'] ?>" name="nilai" class="form-control" required>

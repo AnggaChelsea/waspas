@@ -31,7 +31,7 @@
                             if ($_SESSION['level'] == 1) {
                                 echo "Administrator";
                             } else if ($_SESSION['level'] == 2) {
-                                echo "Surveyor";
+                                echo "Users";
                             }
                             ?>
                         </h4>
